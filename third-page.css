@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+@import "fonts.css";
+body {
+	background-color: aliceblue;
+	padding: 0;
+	margin: 0;
+	margin: auto 12.5%;
+	font-size: 62.5%;
+	box-sizing: border-box;
+	font-family: "SF-Pro-Rounded-Medium";
+	color: midnightblue;
+	box-sizing: border-box; 
+}
+.tp-header {
+	justify-content: center;
+	background-image: linear-gradient(to right, aliceblue, rgba(238, 34, 189, 1), rgba(238, 34, 189, 1), rgba(238, 34, 189, 1), aliceblue);
+	color: white;
+	text-align: center;
+	font-size: 4vw;
+	font-family: 'SF-Pro-Rounded-Bold';
+	margin: 75px auto;
+}
+.tp-boxes{
+	display: flex;
+}
+.tp-boxes img {
+	max-width: 100%;
+}
+[class*="col-"]{
+	float: left;
+	margin: 15px;
+}
+.col-40 {
+	max-width: 40%;
+}
+.col-60 {
+	max-width: 60%;
+}
+.col-50 {
+	max-width: 50%;
+}
+.col-20 {
+	max-width: 20%;
+}
+.col-25 {
+	max-width: 25%;
+}
+.col-75 {
+	max-width: 75%;
+}
+.col-35 {
+	max-width: 35%;
+}
+.col-65 {
+	max-width: 65%;
+}
+.col-100 {
+	max-width: 100%;
+}
+.tp-box {
+	font-size: 2.8vw;
+	letter-spacing: -0.01vw;
+	line-height: 3.7vw;
+	padding: 30px;
+	margin: 15px auto;
+}
+.tp-box.with-data {
+	background-color: white;
+	
+}
+.tp-box.with-data.flex-inline {
+	display: inline-flex;
+}
+.tp-box .big-number.align-left {
+	justify-content: flex-start;
+	padding-bottom: 30px;
+}
+.tp-box .big-number {
+	font-family: 'SF-Pro-Rounded-Bold';
+	font-size: 8.8vw;
+	color: rgba(82, 38, 199, 1);
+	line-height: 3.2vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-right: 15px;
+}
+.tp-box .text {
+	font-size: 2vw;
+	letter-spacing: -0.01vw;
+	line-height: 3.6vw;
+}
+
+.tp-boxes-left.col-40 .tp-box{
+	min-width: 40%;
+}
+
+.tp-box.float-right{
+	float: right;
+}
+
+@media only screen and (max-width: 768px) {
+	.tp-boxes img {
+		display: none;
+	}
+	.col-50 {
+		max-width: 100%;
+	}
+	.col-40 {
+		max-width: 100%;
+	}
+}

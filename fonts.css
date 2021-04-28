@@ -1,0 +1,35 @@
+@font-face {
+	font-family: "SF-Pro-Display-Medium";
+	src: url("./fonts/San Francisco/SF-Pro-Display-Medium.otf");
+}
+
+@font-face {
+	font-family: "SF-Pro-Text-Bold";
+	src: url("./fonts/San Francisco/SF-Pro-Text-Bold.otf");
+}
+
+@font-face {
+	font-family: "SF-Pro-Text-Medium";
+	src: url("./fonts/San Francisco/SF-Pro-Text-Medium.otf");
+}
+
+@font-face {
+	font-family: "SF-Pro-Rounded-Regular";
+	src: url("./fonts/San Francisco/SF-Pro-Rounded-Regular.ttf");
+}
+
+@font-face {
+	font-family: "SF-Pro-Rounded-Bold";
+	src: url("./fonts/San Francisco/SF-Pro-Rounded-Bold.ttf");
+}
+
+@font-face {
+	font-family: "SF-Pro-Rounded-Medium";
+	src: url("./fonts/San Francisco/SF-Pro-Rounded-Medium.ttf");
+}
+
+@font-face {
+	font-family: "SF-Pro-Rounded-Semibold";
+	src: url("./fonts/San Francisco/SF-Pro-Rounded-Semibold.ttf");
+}
+
