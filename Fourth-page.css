@@ -1,4 +1,5 @@
-﻿body {
+﻿@import "fonts.css";
+body {
     background-image: -webkit-linear-gradient(rgba(230, 240, 255, 0.45) 0%, rgba(244, 247, 255, 1) 100%);
     background-image: -moz-linear-gradient(rgba(230, 240, 255, 0.45) 0%, rgba(244, 247, 255, 1) 100%);
     background-image: -o-linear-gradient(rgba(230, 240, 255, 0.45) 0%, rgba(244, 247, 255, 1) 100%);
