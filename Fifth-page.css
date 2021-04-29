@@ -1,0 +1,34 @@
+﻿body {
+    background-image: -webkit-linear-gradient(rgba(230, 240, 255, 0.45) 0%, rgba(244, 247, 255, 1) 100%);
+    background-image: -moz-linear-gradient(rgba(230, 240, 255, 0.45) 0%, rgba(244, 247, 255, 1) 100%);
+    background-image: -o-linear-gradient(rgba(230, 240, 255, 0.45) 0%, rgba(244, 247, 255, 1) 100%);
+    background-image: linear-gradient(rgba(230, 240, 255, 0.45) 0%, rgba(244, 247, 255, 1) 100%);
+}
+
+.sp-header {
+    justify-content: center;
+    background-image: linear-gradient(to right, aliceblue, rgb(211 20 223), rgba(211, 20, 223, 1), rgb(211 20 243), aliceblue);
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'SF-Pro-Rounded-Bold';
+    margin: 75px auto;
+}
+
+.sub-sp-header{
+    justify-content: center;
+    background-image: linear-gradient(to right, aliceblue, rgb(211 20 223), rgba(211, 20, 223, 1), rgb(211 20 243), aliceblue);
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'SF-Pro-Rounded-Bold';
+    margin: 35px auto;
+}
+.sp-text {
+    /*font-family: 'SF Pro Rounded';*/
+    font-size:25px;
+    font-weight: 500;
+    color: midnightblue;
+    text-align: justify;
+    line-height: 36px;
+}
