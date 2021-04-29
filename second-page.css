@@ -1,7 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
 @import "fonts.css";
-* {
+@import "header.css";
+body {
 	box-sizing: border-box;
 	font-size: 62.5%;
 	font-family: "SF-Pro-Rounded-Medium";
@@ -9,6 +10,31 @@
 	padding: 0;
 	margin: 0;
 	background-color: aliceblue;
+}
+
+
+.return-home{
+		margin-bottom: 50px;
+}
+a{
+	font-size: 34px;
+	color: midnightblue;
+	font-family: "SF-Pro-Display-Medium";
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
 }
 
 .second-page {
@@ -19,7 +45,7 @@
 	background-image: linear-gradient(to right, aliceblue, rgba(97, 50, 217, 1), rgba(97, 50, 217, 1), rgba(97, 50, 217, 1), aliceblue);
 	color: white;
 	text-align: center;
-	font-size: 4rem;
+	font-size: 40px;
 	font-family: 'SF-Pro-Rounded-Bold';
 	margin: 75px auto;
 }

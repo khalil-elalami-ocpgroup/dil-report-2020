@@ -1,6 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 @import "fonts.css";
+
 html {
 	font-size: 62.5%;
 	font-family: "SF-Pro-Display-Medium";
@@ -11,6 +12,29 @@ body
  padding:0;
  margin:0;
 }  
+
+.return-home{
+		margin-bottom: 50px;
+}
+a{
+	font-size: 3.4rem;
+	color: white;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
 .first-page {
 	background-color: rgba(34, 21, 98, 1.00);
 	background-image: url("img/Banner.png");
@@ -66,6 +90,9 @@ body
 	font-family: 'SF-Pro-Text-Bold';
 	font-size: 14rem;
 	color: rgba(255, 255, 255, 1);
+	text-align: center;
+	margin-top: -35px;
+	margin-left: 15px;
 }
 
 .fp-header-quote {
