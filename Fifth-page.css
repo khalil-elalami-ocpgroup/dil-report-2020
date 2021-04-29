@@ -32,3 +32,10 @@
     text-align: justify;
     line-height: 36px;
 }
+
+.sp-text-box {
+    font-size: 20px;
+    font-weight: 500;
+    color: midnightblue;
+    line-height: 36px;
+}
