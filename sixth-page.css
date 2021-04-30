@@ -1,4 +1,4 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 /* CSS Document */
 @import "fonts.css";
 @import "header.css";
@@ -157,7 +157,7 @@ img {
 	font-family: 'SF-Pro-Rounded-Bold';
 	font-size: 58px;
 	text-align: center;
-	margin: auto 10
+	margin: auto 10;
 }
 .f5p-big-quote-pink {
 	font-family: 'SF-Pro-Rounded-Bold';
