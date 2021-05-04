@@ -13,25 +13,57 @@
         @import url("header-boost.css");
 
         a {
-            font-size: 34px;
+            font-size: 1.5rem;
             color: midnightblue;
             font-family: "SF-Pro-Display-Medium";
         }
 
             a:link {
-                text-decoration: none;
+                color: blue;
+                text-decoration: underline;
+                text-decoration: underline;
             }
 
             a:visited {
-                text-decoration: none;
+                color: blue;
+                text-decoration: underline;
             }
 
             a:hover {
-                text-decoration: none;
+                color: blue;
+                text-decoration: underline;
             }
 
             a:active {
-                text-decoration: none;
+                color: blue;
+                text-decoration: underline;
+            }
+
+        li {
+            color: rgba(82, 34, 208, 1);
+            /*font-family: SFProRounded-Bold;*/
+            font-size: 1.6rem;
+            font-weight: 500;
+        }
+
+        .video-container {
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+        }
+
+            .video-container::after {
+                padding-top: 56.25%;
+                display: block;
+                content: '';
+            }
+
+            .video-container iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
             }
     </style>
 </head>
@@ -54,7 +86,14 @@
             un gage de <span style="background-image: linear-gradient(to right, rgba(238, 34, 189, 1), rgba(0,0,0,0));">résilience.</span>
         </div>
     </div>
-    <div class="return-home"><a id="return-home-link" href="https://innovation.digital-lab.ma/report2020/"><img src="img/return-img.png" class="img-fluid" style="width:30px; margin-right: 10px">Retour à l'acceuil</a></div>
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+            <div class="return-home"><a id="return-home-link" href="https://innovation.digital-lab.ma/report2020/"><img src="img/return-img.png" class="img-fluid" style="width:30px; margin-right: 10px">Retour à l'acceuil</a></div>
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+
 
     <div class="container">
         <div class="row">
@@ -123,7 +162,7 @@
             <div class="col-md-1"></div>
             <div class="col-md-10">
 
-                <h1 style="color:midnightblue; font-weight:bold; font-family:'SFProRounded-Bold';font-size: 50px;">
+                <h1 style="color:midnightblue; font-weight:bold; font-family:'SFProRounded-Bold';font-size: 2rem;">
                     <img class="img-fluid" src="img\drone.png" />
                     Drones & IA
                 </h1>
@@ -226,7 +265,7 @@
             <div class="col-md-1"></div>
             <div class="col-md-10">
 
-                <h1 style="color:midnightblue; font-weight:bold; font-family:'SFProRounded-Bold';font-size: 50px;">
+                <h1 style="color:midnightblue; font-weight:bold; font-family:'SFProRounded-Bold';font-size: 2rem;">
                     <img class="img-fluid" src="img\chat_box.png" />
                     Applications Mobiles
                 </h1>
@@ -298,7 +337,7 @@
             <div class="col-md-1"></div>
             <div class="col-md-10">
 
-                <h1 style="color:midnightblue; font-weight:bold; font-family:'SFProRounded-Bold';font-size: 50px;">
+                <h1 style="color:midnightblue; font-weight:bold; font-family:'SFProRounded-Bold';font-size: 2rem;">
                     <img class="img-fluid" src="img\smart_light.png" />
                     IoT et SaaS
                 </h1>
@@ -389,13 +428,38 @@
             <div class="col-md-1"></div>
             <div class="col-md-10">
                 <p class="sp-text text-justify">
-                    En partenariat avec la startup InUse, le DIL a mis en place une plateforme collaborative d’aide au diagnostic des pannes. La solution de la start-up finaliste du Data challenge se base principalement sur du maching learning pour rapidement identifier les pannes, diagnostiquer les causes et donc réduire les arrêts de production. Plus de 1.000 pannes ont été décelées sur 7 bulldozers durant la phase test d’un mois à Benguerir.
+                    Le DIL a accompagné des start-ups comme InUse ou Strayos à déployer leurs solutions dans le cadre d’un Proof of concept au plus près des métiers. Ils ont ainsi pu bénéficier de l’accès à la mine expérimentale de Benguerir afin de valider leurs technologies sur le terrain et confirmer les hypothèses de création de valeur. InUse est finaliste du <a href="http://www.liendatachallenge.ocp/" target="_blank">Data challenge</a> et Strayos est lauréate de la cohorte 2020 du programme <a href="http://www.impulse.ma/fr" target="_blank">IMPULSE</a> de l’UM6P
                 </p>
                 <p class="sp-text text-justify">
-                    La start-up Strayos a développé avec le DIL un simulateur de forage et sautage qui réduit les quantités d'explosifs utilisés et des nuisances durant le sautage. Le prototype utilise des algorithmes d’intelligence artificielle pour modéliser et simuler les plans de forage/sautage afin de déterminer les paramètres optimaux à utiliser lors de la mise en œuvre. Strayos est lauréate de la cohorte 2020 du programme IMPULSE de l’UM6P.<br /> WeeGo est une solution de transport qui optimise les trajets et rotations de la flotte. Elle permet de digitaliser les workflows pour la gestion des rotations. Testée à Khouribga par la SOTREG, Weego permet un suivi en temps réel du parc automobile. La solution sera bientôt déployée dans les autres sites.
+                    InUse est une application IoT en mode SaaS qui permet grâce à la maintenance prédictive d’éviter les pannes des équipements critiques.  Alors que des lignes de production sont parfois mises à l’arrêt de nombreuses heures en raison d’un équipement défaillant, prédire la survenue d’une panne est un levier clé pour maximiser leur disponibilité.
                 </p>
                 <p class="sp-text text-justify">
-                    En 2020, une plateforme de tracking des flux routier et maritime a également été lancé par le DIL. Il s’agit de WAKEO, une solution qui offre une visibilité en temps réel de la supply chain du transport des conteneurs et une analyse du transit time. Plus de 1.000 expéditions maritimes ont été suivies depuis Casablanca mais également plus de 1.400 expéditions routières depuis les sites de Jorf Lasfar et Safi.
+                    Le use case à la mine de Benguerir a consisté à entrainer l’algorithme d’InUse pour détecter les pannes sur les buldozers et proposer un diagnostic adéquat permettant d’identifier rapidement la root cause.
+                </p>
+                <p class="sp-text text-justify">
+                    Les axes de création de valeur identifié suite au POC sont :
+                    <ul>
+                        <li>+20% de gain potentiel sur le temps de diagnostic </li>
+                        <li>Entre 30 et 50% de gain du coût de maintenance à long terme</li>
+                    </ul>
+                </p>
+                <p class="sp-text text-justify">
+                    Strayos est spécialisé dans le développement de solutions avancées de traitement d'images et d'IA conçues pour améliorer la sécurité, l'efficacité et la productivité sur les chantiers. Le use case à la mine de Benguerir a consisté à travailler avec la startup Strayos pour mettre en place un simulateur de sautage et forage afin d’optimiser ces opérations. Une mission de collecte des données topographiques avant et après sautage par drones a été mené et les données sont intégrées sur la plateforme afin d’entrainer le modèle.
+                </p>
+                <p class="sp-text text-justify">
+                    L’impact recherché à travers le test de cette solution est :
+                    <ul>
+                        <li>Réduction des quantités d'explosifs utilisés</li>
+                        <li>Réduction du coût de décapage de la zone sauté</li>
+                        <li>Diminution les nuisances causées par le sautage</li>
+                    </ul>
+                </p>
+                <p class="sp-text text-justify">
+                    WeeGo est une plateforme de gestion de la flotte qui optimise les trajets et rotations de la flotte à travers la technologie innovante … (à spécifier, on n’a l’impression ici que c’est uniquement de la digitalisation). Elle permet de digitaliser les workflows pour la gestion des rotations. Testée à Khouribga par la SOTREG, Weego permet un suivi en temps réel du parc automobile. La solution sera bientôt déployée dans les autres sites.
+                    <ul>
+                        <li>30% de gain de temps opérationnel</li>
+                        <li>10% d’optimisation de trajet</li>
+                    </ul>
                 </p>
             </div>
             <div class="col-md-1"></div>
