@@ -1,4 +1,4 @@
-@import "fonts.css";
+﻿@import "fonts.css";
 body {
     background-image: -webkit-linear-gradient(rgba(230, 240, 255, 0.45) 0%, rgba(244, 247, 255, 1) 100%);
     background-image: -moz-linear-gradient(rgba(230, 240, 255, 0.45) 0%, rgba(244, 247, 255, 1) 100%);
@@ -14,15 +14,13 @@ body {
     font-size: 4rem;
     font-family: 'SF-Pro-Rounded-Bold';
     margin: 75px auto;
-    width:100%;
 }
 
 .sp-text {
     /*font-family: 'SF Pro Rounded';*/
-    font-size:1.5rem;
+    font-size:25px;
     font-weight: 500;
     color: midnightblue;
     text-align: justify;
     line-height: 36px;
 }
-
