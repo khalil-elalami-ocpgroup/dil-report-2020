@@ -18,6 +18,8 @@
             font-family: "SF-Pro-Display-Medium";
         }
 
+
+
             a:link {
                 text-decoration: none;
             }
@@ -60,6 +62,21 @@
                 width: 100%;
                 height: 100%;
             }
+
+        @media screen and (max-width: 768px) {
+            a {
+                font-size: 20px;
+                color: midnightblue;
+                font-family: "SF-Pro-Display-Medium";
+            }
+
+            li {
+                color: rgba(82, 34, 208, 1);
+                /*font-family: SFProRounded-Bold;*/
+                font-size: 20px;
+                font-weight: 500;
+            }
+        }
     </style>
 </head>
 <body>
@@ -138,10 +155,10 @@
             <div class="col-md-5">
 
                 <div class="container">
-                    <p style="color:midnightblue;font-size: 51px;font-weight: bold;">
+                    <p style="color:midnightblue;" class="big-text">
                         les collaborateurs du Groupe ont pu visualiser plus de
                     </p>
-                    <p style="color:rgba(29, 205, 175, 1);font-size: 51px;font-weight: bold;">50 numéros de la newsletter</p>
+                    <p style="color:rgba(29, 205, 175, 1);" class="big-text">50 numéros de la newsletter</p>
                 </div>
 
                 <div class="media">
@@ -159,7 +176,7 @@
             <div class="col-md-5">
                 <div class="container">
                     <p class="sp-text">
-                        Par ailleurs, le DIL a participé au <b>HackCovid</b> organisé par <b>l’APEBI</b> dans le but d’apporter des solutions innovantes à la lutte contre la Covid-19. En effet, 17 projets ont été retenus sur les différents thèmes du challenge que sont la solidarité, la sécurité, le sanitaire et l’économie de crise.
+                        Par ailleurs, le DIL a participé au <b><a href="https://www.apebi.org.ma/wp-content/uploads/2020/03/Communiqu%C3%A9-de-presse-HACKCOVID.pdf">HackCovid</a></b> organisé par <b>l’APEBI</b> dans le but d’apporter des solutions innovantes à la lutte contre la Covid-19. En effet, 17 projets ont été retenus sur les différents thèmes du challenge que sont la solidarité, la sécurité, le sanitaire et l’économie de crise.
                     </p>
                     <div class="media">
                         <img style="height: auto;max-width:auto;" class="img-fluid" src="img\Solidarity2.png" alt="Solidarité" />
@@ -231,13 +248,16 @@
         <div class="row">
             <div class="col-md-1"></div>
             <div class="col-md-10">
-                <div class="video-container">
-                    <iframe class="video-container" src="https://www.youtube.com/embed/d3YT8j0yYl0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
+                <figure>
+                    <div class="video-container">
+                        <iframe class="video-container" src="https://www.youtube.com/embed/d3YT8j0yYl0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <figcaption class="sp-text" style="text-align: center; text-decoration:underline; margin-top: 10px; font-family: 'SF Pro Display';  font-size: 21px;    font-style: italic;">Démonstration Microsoft Hololens 2</figcaption>
+                </figure>
             </div>
             <div class="col-md-1"></div>
         </div>
-        <div class="row" style="margin-top:100px;">
+        <div class="row" style="margin-top:30px;">
             <div class="col-md-1"></div>
             <div class="col-md-10">
                 <p class="sp-text text-justify">
@@ -260,8 +280,6 @@
             </div>
             <div class="col-md-1"></div>
         </div>
-
-
         <div class="row">
             <div class="col-md-1"></div>
             <div class="col-md-5">
@@ -275,14 +293,56 @@
             </div>
             <div class="col-md-1"></div>
         </div>
-        <div class="row">
+        <div class="row" style="margin-top:25px;">
             <div class="col-md-3"></div>
             <div class="col-md-6">
-                <video width="100%" controls="controls">
-                    <source src="media/Inspection_des_drones_25s.mp4" type="video/mp4" />
-                </video>
+                <figure>
+                    <video width="100%" controls="controls">
+                        <source src="media/Inspection_des_drones_25s.mp4" type="video/mp4" />
+                    </video>
+                    <figcaption class="sp-text" style="text-align: center; text-decoration:underline; margin-top: 10px; font-family: 'SF Pro Display';  font-size: 21px;    font-style: italic;">Inspection des drones</figcaption>
+                </figure>
             </div>
             <div class="col-md-3"></div>
+        </div>
+
+        <div class="row" style="margin-top:30px;">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <p class="sp-text text-justify">
+                    En respect aux mesures sanitaires, des sites du Groupe ont adopté la mesure de température à distance et sans contact qui s’imposait pour sécuriser les collaborateurs. Après avoir identifié les technologies adéquates, que sont la Face ID et l’assistance vocale, les accès aux bâtiments ont été équipés par cette solution pour fluidifier le contrôle de la température des collaborateurs au niveau des sites de Laayoune et Safi.
+                    <ul>
+                        <li>2 caméras déployées en test pendant la Covid au niveau des sites de Laayoune et Safi</li>
+                        <li>60 prises/jour en moyenne réalisées au niveau de l'accès au site de Laayoune</li>
+                        <li>100 prises/jour en moyenne effectuées au niveau de l’infirmerie au site de Safi</li>
+                        <li>Augmentation du taux de conformité des navires suite aux inspections systématique par drones </li>
+                    </ul>
+                    <br />
+                    <span class="sp-text text-justify"> Au total, 15 collaborations ont été scellées au courant 2020 pour résoudre des problématiques business, relatives à l’excellence opérationnelle, l’industrie 4.0 et l’expérience collaborateur.</span>
+                </p>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+
+        <div class="row" style="padding-top:50px">
+            <div class="col-md-1"></div>
+            <div class="col-md-10" style="height:fit-content">
+                <img class="col img-fluid" style="width: 100%;height: 69%;" src="img\Drone1.png" alt="Drone 1" />
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-5">
+                <img class="col img-fluid" style="width: 100%;height: 100%;" src="img\Drone2.png" alt="Drone 2" />
+            </div>
+            <div class="col-md-5">
+                <img class="col img-fluid" style="width: 100%;height: 69%;" src="img\Drone3.png" alt="Drone 3" />
+                <p class="sp-text" style="text-align:center;margin-top:40px;font-family: 'SF Pro Display';font-size:21px;font-style:italic">
+                    Prototype de Mesure de température à distance
+                </p>
+            </div>
+            <div class="col-md-1"></div>
         </div>
     </div>
     <footer style="margin-top:100px;">
