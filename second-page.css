@@ -50,9 +50,8 @@ a:active {
 	margin: 75px auto;
 }
 .sp-text {
-	font-size: 3rem;
+	font-size: 30px;
 	font-weight: 500;
-	text-align: justify;
 	line-height: 35px;
 	
 }
@@ -81,7 +80,7 @@ a:active {
 
 .sp-dilarticule {
 	font-family: 'SF-Pro-Rounded-Bold';
-	font-size: 6.5rem;
+	font-size: 65px;
 }
 .sp-dilarticule span {
 	color: rgba(238, 34, 189, 1);
@@ -114,7 +113,7 @@ a:active {
 .sp-bwi-header .header-text{
 	background-color: inherit;
 	font-family: "SF-Pro-Rounded-Bold";
-	font-size: 3rem;
+	font-size: 30px;
 	text-align: center;
 	margin-left: 20px
 	
@@ -122,7 +121,7 @@ a:active {
 
 .sp-box.with-image ul{
 	list-style-type:disc;
-	font-size: 2.8rem;
+	font-size: 28px;
 	margin-left: 10%;
 	margin-right: 10%;
 	letter-spacing: -0.01em;
