@@ -4,6 +4,17 @@
 	margin-bottom: 50px;
 	background: rgba(28, 14, 82, 1);
 }
+
+@media screen and (min-width:1023px){
+	.mobile-header{
+		display: none;
+	}
+}
+@media screen and (max-width:1024px){
+	.main-header{
+		display: none;
+	}
+}
 .fp-header-left {
 	position: absolute;
 	left: 100px;
