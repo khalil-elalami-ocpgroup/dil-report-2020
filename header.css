@@ -5,12 +5,20 @@
 	background: rgba(28, 14, 82, 1);
 }
 
-@media screen and (min-width:1023px){
+.mobile-header {
+	margin-bottom: 50px;
+}
+
+.mobile-header img{
+	width: 100%;
+}
+
+@media screen and (min-width:1024px){
 	.mobile-header{
 		display: none;
 	}
 }
-@media screen and (max-width:1024px){
+@media screen and (max-width:1023px){
 	.main-header{
 		display: none;
 	}
