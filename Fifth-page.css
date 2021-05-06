@@ -1,4 +1,5 @@
 ﻿@import "fonts.css";
+
 body {
     background-image: -webkit-linear-gradient(rgba(230, 240, 255, 0.45) 0%, rgba(244, 247, 255, 1) 100%);
     background-image: -moz-linear-gradient(rgba(230, 240, 255, 0.45) 0%, rgba(244, 247, 255, 1) 100%);
@@ -16,7 +17,7 @@ body {
     margin: 75px auto;
 }
 
-.sub-sp-header{
+.sub-sp-header {
     justify-content: center;
     background-image: linear-gradient(to right, aliceblue, rgb(211 20 223), rgba(211, 20, 223, 1), rgb(211 20 243), aliceblue);
     color: white;
@@ -25,9 +26,10 @@ body {
     font-family: 'SF-Pro-Rounded-Bold';
     margin: 35px auto;
 }
+
 .sp-text {
     /*font-family: 'SF Pro Rounded';*/
-    font-size:1.5rem;
+    font-size: 1.5rem;
     font-weight: 500;
     color: midnightblue;
     text-align: justify;
@@ -39,7 +41,7 @@ body {
     font-weight: 500;
     color: midnightblue;
     line-height: 36px;
-    margin:20px;
+    margin: 20px;
 }
 
 @media screen and (max-width: 768px) {
@@ -69,5 +71,51 @@ body {
         color: midnightblue;
         line-height: 36px;
         margin: 20px;
+    }
+}
+
+.h1-text {
+    color: midnightblue;
+    font-weight: bold;
+    font-family: 'SFProRounded-Bold';
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .sp-text {
+        /*font-family: 'SF Pro Rounded';*/
+        font-size: 20px;
+        font-weight: 500;
+        color: midnightblue;
+        text-align: justify;
+        line-height: 35px;
+    }
+
+    .sp-header {
+        justify-content: center;
+        background-image: linear-gradient(to right, aliceblue, rgb(20 223 205), rgba(20, 223, 205, 1), rgb(17 227 208), aliceblue);
+        color: white;
+        text-align: center;
+        font-size: 30px;
+        font-family: 'SF-Pro-Rounded-Bold';
+        margin: 75px auto;
+        width: 100%;
+    }
+
+    .h1-text {
+        color: midnightblue;
+        font-weight: bold;
+        font-family: 'SFProRounded-Bold';
+        font-size: 25px;
+    }
+
+    .sub-sp-header {
+        justify-content: center;
+        background-image: linear-gradient(to right, aliceblue, rgb(211 20 223), rgba(211, 20, 223, 1), rgb(211 20 243), aliceblue);
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        font-family: 'SF-Pro-Rounded-Bold';
+        margin: 35px auto;
     }
 }
