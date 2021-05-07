@@ -16,6 +16,7 @@ body {
     font-family: 'SF-Pro-Rounded-Bold';
     margin: 75px auto;
     width: 100%;
+    margin-top: 20px;
 }
 
 .sp-text {
@@ -24,6 +25,7 @@ body {
     font-weight: 500;
     color: midnightblue;
     text-align: justify;
+    word-spacing: -2px;
     line-height: 36px;
 }
 
@@ -39,6 +41,8 @@ body {
         font-weight: 500;
         color: midnightblue;
         text-align: justify;
+        /*text-justify:distribute;*/
+        word-spacing:-2px;
         line-height: 35px;
     }
 
@@ -51,6 +55,7 @@ body {
         font-family: 'SF-Pro-Rounded-Bold';
         margin: 75px auto;
         width: 100%;
+        margin-top:20px;
     }
 
     .big-text {
