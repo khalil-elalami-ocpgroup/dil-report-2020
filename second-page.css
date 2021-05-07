@@ -50,7 +50,8 @@ a:active {
 	margin: 75px auto;
 }
 .sp-text {
-	font-size: 30px;
+	width:100%;
+	font-size: calc(23px + .5vw);
 	font-weight: 500;
 	line-height: 35px;
 	
@@ -58,13 +59,14 @@ a:active {
 .sp-boxes {
 	display: block;
 	justify-content: center;
+	margin: auto;
 }
 .sp-box {
-	max-width: 100%;
+	
 	margin-bottom: 30px;
 	padding-bottom: 5%;
 	padding-top: 5%;
-	min-width: 450px;
+	 
 }
 
 @media only screen and (min-width: 1240px) {
@@ -79,22 +81,77 @@ a:active {
 }
 
 .sp-dilarticule {
+
+	width: auto;
+	 
+	margin-left: auto;
+    margin-right: auto;
 	font-family: 'SF-Pro-Rounded-Bold';
-	font-size: 65px;
+	font-size: calc(50px + .5vw);
+	@media only screen 
+and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
 }
 .sp-dilarticule span {
+	margin-left: auto;
+    margin-right: auto;
 	color: rgba(238, 34, 189, 1);
-	font-size: 6.5rem;
+	font-size: calc(50px + .5vw);
 	font-family: 'SF-Pro-Rounded-Bold';
 }
 
 .sp-box.with-image {
 	background-color: white;
-	padding-left: 40px;
-	padding-right: 20px;
+	width: auto;
+	
 }
 
 .sp-box.with-image *{
+	width: auto;
+	
 	background-color: white;
 }
 .sp-bwi-header{
@@ -115,16 +172,18 @@ a:active {
 	font-family: "SF-Pro-Rounded-Bold";
 	font-size: 30px;
 	text-align: center;
-	margin-left: 20px
+	margin-left: auto;
 	
 }
 
 .sp-box.with-image ul{
 	list-style-type:disc;
-	font-size: 28px;
+	font-size: calc(23px + .5vw);
 	margin-left: 10%;
 	margin-right: 10%;
 	letter-spacing: -0.01em;
-	line-height: 27px;
-	margin-top: 40px
+	 
+	margin-top: 40px;
+	 
+	
 }
