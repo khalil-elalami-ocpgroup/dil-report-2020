@@ -5,7 +5,6 @@
 
 body{
 	box-sizing: border-box;
-	font-size: 62.5%;
 	font-family: "SF-Pro-Rounded-Medium";
 	color: midnightblue;
 	padding: 0;
@@ -33,8 +32,9 @@ a:active {
   text-decoration: none;
 }
 .sixth-page {
-	margin: auto 12.5%;
+	margin: auto 8%;
 }
+
 .f5p-header {
 	justify-content: center;
 	color: white;
@@ -56,7 +56,8 @@ a:active {
 .f5p-text {
 	font-size: 30px;
 	font-weight: 500;
-	line-height: 35px;
+	line-height: 50px;
+	text-align: justify;
 }
 b {
 	font-family: 'SF-Pro-Rounded-Bold';
@@ -84,9 +85,7 @@ img {
 	font-size: 30px;
 	line-height: 36px;
 }
-.f5p-text-with-picture {
-	clear: both;
-}
+
 #f5p-twp-1 {
 	width: 50%;
 }
@@ -111,33 +110,7 @@ img {
 	max-width: 100%;
 	margin: auto;
 }
-@media only screen and (max-width: 768px) {
-	#f5p-twp-1 {
-		width: 100%;
-	}
-	.f5p-picture-discovery {
-		width: 100%;
-		float: none;
-	}
-	.f5p-picture-discovery img {
-		height: auto;
-		max-width: 100%;
-		margin: auto;
-	}
-	#f5p-twp-2 {
-		width: 100%;
-		float: none;
-	}
-	.f5p-picture-teaching {
-		width: 100%;
-		float: none;
-	}
-	.f5p-picture-teaching img {
-		height: auto;
-		max-width: 100%;
-		margin: auto;
-	}
-}
+
 .f5p-picture-wrapper {
 	align-content: center;
 	margin: 20px 25%;
@@ -176,4 +149,35 @@ img {
 	font-size: 58px;
 	color: rgba(255, 0, 194, 1);
 	text-align: center;
+}
+@media screen and (max-width: 768px) {
+	.f5p-text {
+		text-align: left;
+}
+	#f5p-twp-1 {
+		width: 100%;
+	}
+	.f5p-picture-discovery {
+		width: 100%;
+		float: none;
+	}
+	.f5p-picture-discovery img {
+		height: auto;
+		max-width: 100%;
+		margin: auto;
+		float: none;
+	}
+	#f5p-twp-2 {
+		width: 100%;
+		float: none;
+	}
+	.f5p-picture-teaching {
+		width: 100%;
+		float: none;
+	}
+	.f5p-picture-teaching img {
+		height: auto;
+		max-width: 100%;
+		margin: auto;
+	}
 }

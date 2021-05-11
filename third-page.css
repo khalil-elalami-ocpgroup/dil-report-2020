@@ -32,7 +32,7 @@ a:active {
   text-decoration: none;
 }
 .third-page{
-	margin: auto 12.5%;
+	margin: auto 8%;
 }
 .tp-header {
 	background-image: linear-gradient(to right, aliceblue, rgba(238, 34, 189, 1), rgba(238, 34, 189, 1), rgba(238, 34, 189, 1), aliceblue);
@@ -124,9 +124,8 @@ a:active {
 	padding-top: 20px;
 }
 .tp-box .text {
-	font-size: 2vw;
-	letter-spacing: -0.01vw;
-	line-height: 3.6vw;
+	font-size: 1.5rem;
+	line-height: 3.6rem;
 }
 
 .tp-boxes-left.col-40 .tp-box{
@@ -137,21 +136,11 @@ a:active {
 	float: right;
 }
 
-@media only screen and (max-width: 768px) {
-	.tp-boxes img {
-		display: none;
-	}
-	.col-50 {
-		max-width: 100%;
-	}
-	.col-40 {
-		max-width: 100%;
-	}
-}
+
 .tp-slim-header{
 	background-image: linear-gradient(to right, aliceblue, rgba(238, 34, 189, 1), rgba(238, 34, 189, 1), rgba(238, 34, 189, 1), aliceblue);
 	font-family: 'SF-Pro-Rounded-Bold';
-	font-size: 1.3rem;
+	font-size: 30px;
 	color: white;
 	text-align: center;
 	margin-bottom: -30px;
@@ -166,4 +155,41 @@ a:active {
 }
 #text-bc-orga{
 	margin-right: 20px;
+}
+@media only screen and (max-width: 768px) {
+	.tp-boxes{
+	display: block;
+	}
+
+	.tp-boxes img {
+		display: none;
+	}
+	[class*="col-"]{
+	max-width: 100%;
+		width: 80%;
+	margin: 15px 0px;
+	}
+
+	.tp-box.with-data.flex-inline {
+	display: block;
+	}
+	.tp-slim-header{
+	background-image: none;
+	font-family: 'SF-Pro-Rounded-Bold';
+	font-size: 30px;
+	color: rgba(238, 34, 189, 1);
+	text-align: center;
+	margin-bottom: -30px;
+	z-index: 1;
+	position: relative;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+}
+
+@media only screen and (min-width: 768px) {
+	.tp-box.with-data{
+		width: 100%;
+	}
 }

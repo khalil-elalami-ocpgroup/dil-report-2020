@@ -38,7 +38,7 @@ a:active {
 }
 
 .second-page {
-	margin: auto 12.5%;
+	margin: auto 8%;
 }
 .sp-header {
 	justify-content: center;
@@ -51,9 +51,9 @@ a:active {
 }
 .sp-text {
 	width:100%;
-	font-size: calc(23px + .5vw);
+	font-size: 30px;
 	font-weight: 500;
-	line-height: 35px;
+	line-height: 50px;
 	
 }
 .sp-boxes {
