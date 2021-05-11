@@ -29,7 +29,7 @@ body {
 }
 
 .sp-text {
-    /*font-family: 'SF Pro Rounded';*/
+    font-family: SF-Pro-Rounded-Medium;
     font-size: 1.5rem;
     font-weight: 500;
     color: midnightblue;
@@ -48,7 +48,7 @@ body {
 
 @media screen and (max-width: 768px) {
     .sp-text {
-        /*font-family: 'SF Pro Rounded';*/
+        font-family: SF-Pro-Rounded-Medium;
         font-size: 20px;
         font-weight: 500;
         color: midnightblue;
@@ -80,13 +80,13 @@ body {
 .h1-text {
     color: midnightblue;
     font-weight: bold;
-    font-family: 'SFProRounded-Bold';
+    font-family: SF-Pro-Rounded-Bold;
     font-size: 2rem;
 }
 
 @media screen and (max-width: 768px) {
     .sp-text {
-        /*font-family: 'SF Pro Rounded';*/
+        font-family: SF-Pro-Rounded-Medium;
         font-size: 20px;
         font-weight: 500;
         color: midnightblue;
@@ -110,8 +110,8 @@ body {
     .h1-text {
         color: midnightblue;
         font-weight: bold;
-        font-family: 'SFProRounded-Bold';
-        font-size: 25px;
+        font-family: SF-Pro-Rounded-Bold;
+        font-size: 19px;
     }
 
     .sub-sp-header {
