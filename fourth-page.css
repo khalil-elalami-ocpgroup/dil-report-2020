@@ -5,6 +5,7 @@ body {
     background-image: -moz-linear-gradient(rgba(230, 240, 255, 0.45) 0%, rgba(244, 247, 255, 1) 100%);
     background-image: -o-linear-gradient(rgba(230, 240, 255, 0.45) 0%, rgba(244, 247, 255, 1) 100%);
     background-image: linear-gradient(rgba(230, 240, 255, 0.45) 0%, rgba(244, 247, 255, 1) 100%);
+    font-family: SF-Pro-Rounded-Medium;
 }
 
 .sp-header {
@@ -20,7 +21,7 @@ body {
 }
 
 .sp-text {
-    /*font-family: 'SF Pro Rounded';*/
+    font-family: SF-Pro-Rounded-Medium;
     font-size: 1.5rem;
     font-weight: 500;
     color: midnightblue;
@@ -36,13 +37,12 @@ body {
 
 @media screen and (max-width: 768px) {
     .sp-text {
-        /*font-family: 'SF Pro Rounded';*/
+        font-family: SF-Pro-Rounded-Medium;
         font-size: 20px;
         font-weight: 500;
         color: midnightblue;
-        text-align: justify;
-        /*text-justify:distribute;*/
-        word-spacing:-2px;
+        text-align: justify;        
+        word-spacing: -2px;
         line-height: 35px;
     }
 
