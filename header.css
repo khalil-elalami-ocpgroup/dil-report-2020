@@ -20,7 +20,7 @@
 }
 @media screen and (max-width:1023px){
 	.main-header{
-		display: none;
+		display: none;		
 	}
 }
 .fp-header-left {

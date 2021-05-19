@@ -200,6 +200,11 @@ a {
         height: 200px;
     }
     .videosize {
-        width: 50%;
+        width: 60%;
+        border:2px solid midnightblue;
+    }
+
+    .mobile-header {
+        margin-bottom: 10px;
     }
 }
