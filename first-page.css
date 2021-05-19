@@ -191,9 +191,15 @@ a {
     height: 500px;
 }
 
+.videosize{
+    width:25%;
+}
 @media screen and (max-width: 768px) {
     #iframe-range {
         width: 100%;
         height: 200px;
+    }
+    .videosize {
+        width: 50%;
     }
 }
